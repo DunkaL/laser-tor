@@ -1,0 +1,40 @@
+@font-face { 
+    font-family: 'rouble';
+    src: url('../font/rouble.html') format("opentype");
+}
+
+@font-face {
+	font-family: 'Verdana';
+	src: local('../font/Verdana/Verdana'), local('Verdana'),
+		url('../font/Verdana/Verdana.woff') format('woff'),
+		url('../font/Verdana/Verdana.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GothamSSm';
+	src: local('../font/GothamSSm/GothamSSm-Medium'), local('GothamSSm-Medium'),
+		url('../font/GothamSSm/GothamSSm-Medium.woff') format('woff'),
+		url('../font/GothamSSm/GothamSSm-Medium.html') format('opentype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GothamSSm';
+	src: local('../font/GothamSSm/GothamSSm-XLight'), local('GothamSSm-XLight'),
+		url('../font/GothamSSm/GothamSSm-XLight.woff') format('woff'),
+		url('../font/GothamSSm/GothamSSm-XLight.html') format('opentype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GothamCondSSm-Medium';
+	src: local('../font/GothamSSm/GothamCondSSm-Medium'), local('GothamCondSSm-Medium'),
+		url('../font/GothamSSm/GothamCondSSm-Medium.woff') format('woff'),
+		url('../font/GothamSSm/GothamCondSSm-Medium.html') format('opentype');
+	font-weight: 500;
+	font-style: normal;
+}
