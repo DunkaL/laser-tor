@@ -24,7 +24,7 @@
         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="padding-right: 17px; overflow: hidden;">
     <div class="preloader">
         <div class="preloader__row">
             <div class="cssload-container">
@@ -38,6 +38,8 @@
             window.setTimeout(function () {
                 document.body.classList.add('loaded');
                 document.body.classList.remove('loaded_hiding');
+                document.body.style.paddingRight="";
+                document.body.style.overflow="";
             }, 500);
         }
     </script>
