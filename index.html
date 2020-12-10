@@ -35,9 +35,12 @@
         window.onload = function () {
             document.body.classList.add('loaded_hiding');
             document.body.style.paddingRight="17px";
+            document.body.style.overflow="hidden";
             window.setTimeout(function () {
                 document.body.classList.add('loaded');
                 document.body.classList.remove('loaded_hiding');
+                document.body.style.paddingRight="";
+                document.body.style.overflow="";
             }, 500);
         }
     </script>
