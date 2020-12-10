@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="padding-right: 17px; overflow: hidden;">
     <div class="preloader">
         <div class="preloader__row">
             <div class="cssload-container">
@@ -34,8 +34,6 @@
     <script>
         window.onload = function () {
             document.body.classList.add('loaded_hiding');
-            document.body.style.paddingRight="17px";
-            document.body.style.overflow="hidden";
             window.setTimeout(function () {
                 document.body.classList.add('loaded');
                 document.body.classList.remove('loaded_hiding');
